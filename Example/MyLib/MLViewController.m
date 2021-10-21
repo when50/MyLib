@@ -7,6 +7,7 @@
 //
 
 #import "MLViewController.h"
+#import <MyLib/TestClass.h>
 
 @interface MLViewController ()
 

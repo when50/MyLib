@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078F6E3F1809A1669D083254 /* Pods_MyLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AFF21BE44C5760833A0E3E /* Pods_MyLib_Example.framework */; };
+		5A5E712527214D3D00AB5539 /* Pods_MyLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AFF21BE44C5760833A0E3E /* Pods_MyLib_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A5431D08101813723BC9953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A5431D08101813723BC9953 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51A508ED46E1D0AAF8CF46A3 /* Pods-MyLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyLib_Tests/Pods-MyLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98AFF21BE44C5760833A0E3E /* Pods_MyLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99397EC3EC6485EC8BC10DE3 /* MyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyLib.podspec; path = ../MyLib.podspec; sourceTree = "<group>"; };
+		99397EC3EC6485EC8BC10DE3 /* MyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLib.podspec; path = ../MyLib.podspec; sourceTree = "<group>"; };
 		9B027CC8AAF799AF75E42D47 /* Pods_MyLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E45404213EA4C26CE2278C /* Pods-MyLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MyLib_Example/Pods-MyLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B4CBE3BF4CBA0C0B3A345C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4CBE3BF4CBA0C0B3A345C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5DC4B48548EE43C02235F18 /* Pods-MyLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLib_Tests/Pods-MyLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,9 +75,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				5A5E712527214D3D00AB5539 /* Pods_MyLib_Example.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				078F6E3F1809A1669D083254 /* Pods_MyLib_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +193,6 @@
 				51A508ED46E1D0AAF8CF46A3 /* Pods-MyLib_Tests.debug.xcconfig */,
 				E5DC4B48548EE43C02235F18 /* Pods-MyLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
 				INFOPLIST_FILE = "MyLib/MyLib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
 				INFOPLIST_FILE = "MyLib/MyLib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
